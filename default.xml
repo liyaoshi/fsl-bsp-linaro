@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2"/>
+  <default sync-j="5"/>
 
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
@@ -9,6 +9,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="https://github.com/liyaoshi/"  name="liyaoshi"/>
 
   <project remote="yocto" revision="dd0ba9ea4a11ab15348d4fe3574e4b28784db82f" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="35b8b9bd9863de208ab60e33b55f10ee43e2619b" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -21,6 +22,7 @@
   </project>
 
   <project remote="freescale" revision="e200df91b70da254461c59082ddd5db0a3c415a2" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="liyaoshi" revision="9b1fd178309544dff1f7453e796a9437125bc0d9" name="meta-linaro" path="sources/meta-linaro"/>
   <project remote="freescale" revision="2231e946e7a94d096394f2b2477e8184c9bbde7b" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="b6d46d69a261fe6bd7c1e9811dc2a9bbd0b79aeb" name="meta-browser" path="sources/meta-browser" />
